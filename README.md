@@ -1,6 +1,6 @@
 # Dev2AM DevOps Training - Demo Node.js Application
 
-# Development
+## Development
 ```shell
 make dev.init
 ```
@@ -44,3 +44,11 @@ make prod.down
 ```shell
 make prod.clean
 ```
+
+## Auto deployment
+### Development
+- ENV=dev
+- SECRET_NAME=dev2am/devops/dev/demo-nodejs-app
+### Production
+- ENV=prod
+- SECRET_NAME=dev2am/devops/prod/demo-nodejs-app
