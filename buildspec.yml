@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+    build:
+        commands:
+            - echo make .env on `date`
+            - chmod +x ./docker/$ENV/scripts/pre-deploy.sh
+            - ./docker/$ENV/scripts/pre-deploy.sh
+    post_build:
+        commands:
+            - echo cleaning
+            - rm -rf docker-compose.yml docker-compose.dev.yml Dockerfile.dev makefile docker
+            - echo build completed on `date`
+artifacts:
+    files:
+        - '**/*'

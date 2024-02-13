@@ -1,0 +1,11 @@
+services:
+  app:
+    image: "${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}"
+    container_name: ${DOCKER_CONTAINER_NAME}-${APP_ENV}-app
+    ports:
+      - "3000:3000"
+    networks:
+      - demo-nodejs-network
+networks:
+  demo-nodejs-network:
+    driver: bridge

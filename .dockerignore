@@ -1,0 +1,16 @@
+## common
+**/*.DS_Store
+
+## Storage
+.storage
+.platform
+docker-compose.dev.yml
+docker-compose.yml
+docker
+Dockerfile
+Dockerfile.dev
+Dockerrun.aws.json
+makefile
+.gitignore
+.git
+.idea
