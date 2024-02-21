@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     let timestamp = moment(Date.now()).format('YYYY-MM-DD HH:mm:ss');
     res.json({
         success: true,
-        message: 'Demp App is running with version 3.0.0.',
+        message: 'The app is running with version 1.0.0.',
         timestamp: timestamp
     })
 });
@@ -16,7 +16,7 @@ app.get('/health', (req, res) => {
     let timestamp = moment(Date.now()).format('YYYY-MM-DD HH:mm:ss');
     res.json({
         success: true,
-        message: 'The System is runining normally!',
+        message: 'The System is running normally!',
         timestamp: timestamp
     })
 });
