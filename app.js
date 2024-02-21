@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     let timestamp = moment(Date.now()).format('YYYY-MM-DD HH:mm:ss');
     res.json({
         success: true,
-        message: 'Demp App is running with version 1.0.0.',
+        message: 'Demp App is running with version 2.0.0.',
         timestamp: timestamp
     })
 });
