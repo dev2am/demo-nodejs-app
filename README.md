@@ -54,9 +54,9 @@ make prod.clean
 - SECRET_NAME=dev2am/devops/prod/demo-nodejs-app
 
 ## Contact
-- Email: [duytan4work@gmail.com](mailto:duytan4work@gmail.com)
-- Website: [DEV2AM.COM](https://dev2am.com)
-- Facebook: [www.facebook.com/dev2am](https://www.facebook.com/dev2am)
-- Youtube: [www.youtube.com/@DEV2AM](https://youtube.com/@DEV2AM?si=X9m_pBxbr9HpIpfzM)
-- Linkedin: [www.linkedin.com/in/tannd1909](https://www.linkedin.com/in/tannd1909)
+- Email: [duytan4work@gmail.com](mailto:duytan4work@gmail.com){:target="_blank"}
+- Website: [dev2am.com](https://dev2am.com){:target="_blank"}
+- Facebook: [www.facebook.com/dev2am](https://www.facebook.com/dev2am){:target="_blank"}
+- Youtube: [www.youtube.com/@DEV2AM](https://youtube.com/@DEV2AM?si=X9m_pBxbr9HpIpfzM){:target="_blank"}
+- Linkedin: [www.linkedin.com/in/tannd1909](https://www.linkedin.com/in/tannd1909){:target="_blank"}
 - Discord: tannd1909
