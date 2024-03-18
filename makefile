@@ -11,30 +11,30 @@ dev.into:
 dev.stop:
 	./docker/dev/scripts/stop.sh
 dev.down:
-	./docker/dev/scripts/down.sh
+	./.docker/dev/scripts/down.sh
 dev.reload:
-	./docker/dev/scripts/stop.sh
-	./docker/dev/scripts/run.sh
+	./.docker/dev/scripts/stop.sh
+	./.docker/dev/scripts/run.sh
 dev.clean:
-	./docker/dev/scripts/down.sh
-	./docker/dev/scripts/clean.sh
+	./.docker/dev/scripts/down.sh
+	./.docker/dev/scripts/clean.sh
 
 ## production
 prod.init:
 	cp .env.example .env
 	#mkdir .storage
 prod.build:
-	./docker/prod/scripts/build.sh
+	./.docker/prod/scripts/build.sh
 prod.run:
-	./docker/prod/scripts/run.sh
+	./.docker/prod/scripts/run.sh
 prod.into:
-	./docker/prod/scripts/into.sh
+	./.docker/prod/scripts/into.sh
 prod.stop:
-	./docker/prod/scripts/stop.sh
+	./.docker/prod/scripts/stop.sh
 prod.down:
-	./docker/prod/scripts/down.sh
+	./.docker/prod/scripts/down.sh
 prod.reload:
-	./docker/prod/scripts/stop.sh
-	./docker/prod/scripts/run.sh
+	./.docker/prod/scripts/stop.sh
+	./.docker/prod/scripts/run.sh
 prod.clean:
-	./docker/prod/scripts/clean.sh
+	./.docker/prod/scripts/clean.sh
