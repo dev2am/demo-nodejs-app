@@ -3,13 +3,13 @@ dev.init:
 	cp .env.example .env
 	#mkdir .storage
 dev.build:
-	./docker/dev/scripts/build.sh
+	./.docker/dev/scripts/build.sh
 dev.run:
-	./docker/dev/scripts/run.sh
+	./.docker/dev/scripts/run.sh
 dev.into:
-	./docker/dev/scripts/into.sh
+	./.docker/dev/scripts/into.sh
 dev.stop:
-	./docker/dev/scripts/stop.sh
+	./.docker/dev/scripts/stop.sh
 dev.down:
 	./.docker/dev/scripts/down.sh
 dev.reload:
