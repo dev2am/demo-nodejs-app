@@ -1,4 +1,4 @@
-# Dev2AM DevOps Training - Demo Node.js Application
+# Demo Node.js App
 
 ## Development
 ```shell
@@ -45,7 +45,7 @@ make prod.down
 make prod.clean
 ```
 
-## Auto deployment
+## AWS Secrets Manager
 ### Development
 - ENV=dev
 - SECRET_NAME=dev2am/devops/dev/demo-nodejs-app

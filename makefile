@@ -1,7 +1,7 @@
 ## develop
 dev.init:
-	cp .env.example .env
 	#mkdir .storage
+	cp .env.example .env
 dev.build:
 	./.docker/dev/scripts/build.sh
 dev.run:
@@ -21,8 +21,8 @@ dev.clean:
 
 ## production
 prod.init:
-	cp .env.example .env
 	#mkdir .storage
+	cp .env.example .env
 prod.build:
 	./.docker/prod/scripts/build.sh
 prod.run:
